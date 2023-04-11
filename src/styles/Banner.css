@@ -1,0 +1,27 @@
+.banner {
+    position: relative;
+    max-width: 100%;
+    padding-inline: 2vw;
+    background-image: url(../assets/coast.jpg);
+    background-position: 0 -450px;
+    background-size: cover;
+    min-height: 223px;
+    margin: auto;
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.banner::before {
+    position:absolute;
+    content: "";
+    inset: 0;
+    opacity: 0.5;
+    border-radius: 2rem;
+}
+
+.banner h1 {
+    font-size: 48px;
+}
