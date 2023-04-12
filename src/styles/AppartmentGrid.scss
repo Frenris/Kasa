@@ -1,5 +1,7 @@
+@import "../scss/variables.scss";
+
 .grid {
-    background-color: rgba(0, 0, 0, 0.119);
+    background-color: $grid-background-dark;
     min-height: 50vh;
     border-radius: 2rem;
     display: flex;
@@ -12,7 +14,7 @@
 @media screen and (width <= 768px) {
     .grid {
         justify-content: center;
-        background-color: white;
+        background-color: $grid_background-light;
         padding: 0;
     }
 }

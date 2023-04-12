@@ -1,6 +1,6 @@
 import React from 'react'
 import Coast from "../assets/coast.jpg"
-import "../styles/Banner.css"
+import "../styles/Banner.scss"
 
 function Banner() {
   return (

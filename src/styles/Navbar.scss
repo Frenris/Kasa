@@ -1,0 +1,23 @@
+@import "../scss/variables.scss";
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 2vw;
+    color: $color-primary;
+    font-size: 18px;
+    font-weight: bold;
+    width: 93vw;
+    & > *:first-child {
+        margin-right: auto;
+    }
+    & a {
+        text-decoration: none;
+        color: $color-primary;
+        &:hover, &.active {
+            text-decoration: underline;
+        }
+    }
+}
+
